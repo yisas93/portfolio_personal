@@ -1,0 +1,221 @@
+body{
+  --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42/var(--tw-bg-opacity));
+    
+}
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* front page*/
+
+
+
+/* Navbar*/
+.navback{
+  --tw-bg-opacity: 1;
+    background-color: rgb(15 33 52/var(--tw-bg-opacity));
+}
+.nav-link{
+  color: white;
+  font-size:1.6rem;
+}
+
+nav{
+  height: 5rem;
+}
+
+.button-cv{
+  border: none;
+  border-top-right-radius:10% ;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  font-weight: 700;
+  color: white;
+  background-color:  rgb(20, 202, 14);
+  margin-left: 4rem;
+  width:4rem;
+  height: 2.5rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button-cv:hover{
+  background-color: #07ff07;
+  box-shadow: 1px 1px 1rem rgb(70, 243, 136);
+  width:4.5rem;
+  height: 3rem;
+}
+
+
+.cv{
+  text-decoration: none;
+}
+
+.mail-navbar:hover{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Landing*/
+
+
+.landing-title{
+  color: rgb(20, 202, 14);
+  font-size: 4rem;
+  text-align: left;
+}
+.landing-down-title{
+  color: rgb(20, 202, 14);
+  font-size: 4rem;
+  text-align: right;
+}
+.landing-p{
+  color: rgb(219, 238, 210);
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.landing-info{
+  margin-top: 2rem;
+}
+.landing-holder{
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.title{
+  margin-top: 5rem;
+}
+
+.img-cont{
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  margin-left: 1rem;
+  }
+.img-landing{
+  width: 100%;
+  height: 100%;
+    
+  object-fit: cover;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Skills*/
+
+
+.skills-holder{
+  margin-top: 6rem;
+}
+
+.skills-container{
+ --tw-bg-opacity: 1;
+  background-color: rgb(15 53 52/var(--tw-bg-opacity));
+  margin: auto;
+  color: white;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.skill-title{
+  color: green;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 4rem;
+}
+
+.logo{
+  font-size: 4rem;
+  margin-top: 4rem;
+}
+
+.p-skills{
+  font-size: 1.3rem;
+  
+}
+.subtitle-skill{
+  margin-top: 3rem;
+}
+
+.subtitle-skill-h4{
+  color: red;
+}
+.p-subtitle{
+  font-size: 1.3rem;
+  text-align: left;
+}
