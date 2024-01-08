@@ -192,6 +192,9 @@ nav{
   color: white;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding-bottom: 5rem;
 }
 .skill-title{
   color: green;
@@ -214,8 +217,273 @@ nav{
 
 .subtitle-skill-h4{
   color: red;
+  margin-bottom: 3rem;
 }
 .p-subtitle{
   font-size: 1.3rem;
   text-align: left;
+  margin-top: 3rem;
+}
+
+.tools-skills{
+  color: red;
+
+}
+
+
+
+
+
+
+
+/* PROJECTS*/
+.projects-title{
+  color: green;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.projects-cont{
+  margin-top: 5rem;
+}
+.project-img-cont{
+  width: 300px;
+}
+.project-img{
+  max-width: 100%;
+  border-top-right-radius: .5rem;
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}
+.projects{
+  margin-top: 5rem;
+}
+
+.video-description{
+  color: white;
+}
+.p-holder-project{
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+.project-holder{
+  margin-top: 5rem;
+}
+
+.tech-holder{
+  width: 75px;
+  margin-left: 1rem;
+}
+
+.tech{
+  max-width: 100%;
+}
+.project-title{
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* code*/
+
+
+.final_line{
+  text-align: left;
+}
+.p-code{
+  
+  font-size: 4rem;
+  background-color: black;
+}
+
+.while-code{
+  color: purple;
+}
+.parent-code{
+  color: blue;
+}
+.success-code{
+  color: white;
+}
+
+.curly-code{
+  color: green;
+}
+.try-code{
+  color: rgb(145, 29, 240);
+}
+
+.code-cont{
+  margin-top: 5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:992px){
+  /*landing*/
+  .landing-title{
+    font-size: 3rem;
+  }
+  .landing-down-title{
+    font-size: 3rem; 
+  }
+  .landing-p{
+    font-size: 1.3rem;
+  }
+  .title{
+    margin-top: 4rem;
+  }
+  .img-cont{
+    width: 300px;
+    height: 200px; 
+    margin-left: 5rem;
+    }  
+
+
+  /*SKills*/
+
+
+  
+
+
+.skill-title{
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+/*Projects*/
+
+
+/* PROJECTS*/
+
+#video-player{
+  
+  margin: auto;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:750px){
+
+/* Landing*/
+.landing-title{
+  font-size: 2rem;
+}
+.landing-down-title{
+  font-size: 2rem;
+}
+.landing-p{
+  font-size: 1rem; 
+}
+.landing-info{
+  margin-top: 0rem;
+}
+.img-cont{
+  width: 300px;
+  height: 200px;
+  margin-left: 1rem;
+  }
+
+
+  /* Skills*/
+
+
+  .skills-holder{
+    margin-top: 6rem;
+  }
+  
+  .skills-container{
+   --tw-bg-opacity: 1;
+    background-color: rgb(15 53 52/var(--tw-bg-opacity));
+    margin: auto;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding-bottom: 5rem;
+  }
+  .skill-title{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 4rem;
+  }
+  
+  .logo{
+    font-size: 4rem;
+    margin-top: 4rem;
+  }
+  
+  .p-skills{
+    font-size: 1.3rem;
+    
+  }
+  .subtitle-skill{
+    margin-top: 3rem;
+  }
+  
+  .subtitle-skill-h4{
+    color: red;
+    margin-bottom: 3rem;
+  }
+  .p-subtitle{
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 3rem;
+  }
+  
+  .tools-skills{
+    color: red;
+  
+  }
+  
+  
+  
+
+
 }
