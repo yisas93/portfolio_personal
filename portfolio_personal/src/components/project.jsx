@@ -4,12 +4,13 @@ import ReactPlyer from "react-player";
 
 export const Project=(props)=>{
 
-
+const validate = props.validate
 
     return(
-        <div className="row project-holder">
-                            <div className="col-12 col-lg-6 video ">
-                        <ReactPlyer id="video-player" width={"80%"} playing loop muted url={props.video} />
+        <div className="row project-holder " id="projects">
+                            <div className="col-12 col-lg-6 video d-grid">
+                        <ReactPlyer className="video-player" width={"80%"} id="video-player"  playing loop muted url={props.video} />
+                        
                         </div>
                         <div className="col-12 col-lg-6 video-description">
                             <h1 className="project-title">{props.title}</h1>
@@ -43,7 +44,18 @@ export const Project=(props)=>{
                                 <div className="tech-holder ">
                                 <img className="tech" src={props.tech8} alt="" />
                                 </div>
+                              
                             </div>
+                            <div className="buttons-project d-flex justify-content-around" >
+                            <a href={props.link1}>
+                                <button className="button-source-visit">Source Code  <i class="fa-brands fa-square-github source-visit-project"></i></button>
+                            </a>
+                            {validate?(
+                                <a href={props.link2}>
+                                    <button className="button-source-visit">Visit Site  <i class="fa-solid fa-share source-visit-project"></i></button>
+                                    </a>
+                            ):""}
+                        </div>
                         </div>
                         </div>
     )

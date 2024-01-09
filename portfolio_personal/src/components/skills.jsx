@@ -9,10 +9,10 @@ export const Skills=()=>{
 
 
     return(
-        <div className="container-fluid skills-holder">
+        <div className="container-fluid skills-holder" id="skills">
             <div className="row">
-                <div className="col-sm-11 col-lg-10 d-flex skills-container m-auto">
-                    <div className="col">
+                <div className="col-sm-11 col-lg-10 d-grid d-sm-flex skills-container m-auto">
+                    <div className="col-12 col-sm-4">
                         <div className="logo-skill">
                         <i className="fa-brands fa-html5 logo"></i>
                         </div>
@@ -33,7 +33,7 @@ export const Skills=()=>{
                             </p>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-12 col-sm-4">
                         <div className="logo-skill">
                         <i className="fa-solid fa-code logo"></i>
                         </div>
@@ -55,7 +55,7 @@ export const Skills=()=>{
                             </p>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-12 col-sm-4">
                         <div className="logo-skill">
                         <i className="fa-solid fa-database logo"></i>
                         </div>

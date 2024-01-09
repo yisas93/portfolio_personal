@@ -5,6 +5,7 @@ import { Landing } from './components/landing.jsx';
 import { Skills } from './components/skills.jsx';
 import { Projects } from './components/projects.jsx';
 import { Code } from './components/code.jsx';
+import { Contact } from './components/contact.jsx';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <Skills/>
       <Code/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }
